@@ -101,7 +101,7 @@ def vinheta():
 
 def carrega_palavra_secreta():
     lista_palavras = []
-    arquivo = open("C:\\Users\\sergi\\Documents\\PycharmProjects\\MeusEstudos\\frutas.txt","r",encoding="utf-8")
+    arquivo = open("C:\\Users\\sergi\\Documents\\Estudos\\PycharmProjects\\Jogo_da_forca_e_adivinhacao\\frutas.txt", "r", encoding="utf-8")
     for linha in arquivo:
         lista_palavras.append(linha.upper().strip())
     arquivo.close()
